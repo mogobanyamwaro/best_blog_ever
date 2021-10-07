@@ -50,6 +50,7 @@
   font-size: 18px;
   font-weight: 300;
   cursor: pointer;
+  text-align: center;
 }
 
 .topSearchIcon {
@@ -57,4 +58,14 @@
   color: #666;
   cursor: pointer;
   margin-left: 15px;
+}
+@media (max-width: 700px) {
+  .topLeft {
+    display: none;
+  }
+  .top {
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
 }

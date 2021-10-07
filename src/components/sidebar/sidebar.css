@@ -62,3 +62,12 @@
   margin-left: 10px;
   cursor: pointer;
 }
+@media (max-width: 700px) {
+  .sidebar {
+    flex: 0;
+  }
+  .sidebarItem > img {
+    margin-top: 1px;
+    width: 150px;
+  }
+}

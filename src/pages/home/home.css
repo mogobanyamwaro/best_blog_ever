@@ -1,3 +1,10 @@
 .home {
   display: flex;
 }
+@media (max-width: 700px) {
+  .home {
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+  }
+}
