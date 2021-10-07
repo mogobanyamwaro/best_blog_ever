@@ -58,9 +58,21 @@
 }
 
 .sidebarIcon {
-  font-size: 16px;
+  font-size: 22px;
   margin-left: 10px;
   cursor: pointer;
+}
+.fa-facebook-square:hover {
+  color: #4064ac;
+}
+.fa-twitter-square:hover {
+  color: #24a4f2;
+}
+.fa-pinterest-square:hover {
+  color: #e7082a;
+}
+.fa-instagram-square:hover {
+  color: #bc2a8d;
 }
 @media (max-width: 700px) {
   .sidebar {

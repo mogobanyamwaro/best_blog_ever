@@ -1,3 +1,10 @@
 .single {
   display: flex;
 }
+@media (max-width: 700px) {
+  .single {
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+  }
+}
